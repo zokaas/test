@@ -1,0 +1,3 @@
+apps copy/kyc/.env.local
+apps copy/kyc/.env.development
+apps copy/kyc/.env.production
