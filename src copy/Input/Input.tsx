@@ -12,11 +12,9 @@ const Input: React.FC<T_Input> = ({
 }) => {
     return (
         <div className="flex-grow">
-            {label && (
-                <label className="block mb-2 font-medium text-base-content">
-                    {label}
-                </label>
-            )}
+            <label className="block mb-2 font-medium text-base-content">
+                {label}
+            </label>
             <input
                 name={name}
                 type={type}

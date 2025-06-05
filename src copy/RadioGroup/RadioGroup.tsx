@@ -10,9 +10,11 @@ const RadioGroup: React.FC<T_RadioGroup> = ({
     errorMessage,
 }) => {
     return (
-        <div className="space-y-3">
-            {label && <label className="block text-base font-medium text-base-content">{label}</label>}
-            <div className="flex gap-3">
+        <div className="flex-grow">
+            <label className="block mb-2 font-medium text-base-content">
+                {label}
+            </label>
+            <div className="flex gap-3 mb-2">
                 {options.map((option) => (
                     <button
                         key={option.value}

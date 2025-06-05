@@ -4,7 +4,7 @@ export type T_Option = {
 };
 
 export type T_RadioGroup = {
-    label: string;
+    label: string | React.ReactNode;
     name: string;
     options: T_Option[];
     selectedValue: string;

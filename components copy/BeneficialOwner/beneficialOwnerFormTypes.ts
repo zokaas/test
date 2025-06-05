@@ -21,7 +21,7 @@ export type T_BeneficialOwnerLabels = {
 
 export type T_BeneficialOwnerForm = {
     name: string;
-    label: string;
+    label: string | React.ReactNode;
     beneficialOwners: T_BeneficialOwner[];
     setBeneficialOwner: (owners: T_BeneficialOwner[]) => void;
     countryList: T_Country[];

@@ -5,7 +5,7 @@ export type T_Options = {
 
 export type T_MultiSelectDropdown = {
     name: string;
-    label: string;
+    label: string | React.ReactNode;
     options: Array<T_Options>;
     placeholder: string;
     selectedOptions: Array<string>;

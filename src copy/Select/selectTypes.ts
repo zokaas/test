@@ -5,7 +5,7 @@ export type T_Option = {
 
 export type T_Select = {
     name: string;
-    label: string;
+    label: string | React.ReactNode;
     options?: T_Option[];
     selectedValue: string;
     onChange: (value: string) => void;
